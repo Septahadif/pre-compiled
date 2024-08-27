@@ -18,6 +18,7 @@ yes | pkg install libjansson
 apt install wget -y
 ```
 
+```
 mkdir ccminer && cd ccminer
 ```
 
@@ -33,6 +34,7 @@ wget https://raw.githubusercontent.com/Septahadif/pre-compiled/generic/config.js
 wget https://raw.githubusercontent.com/Septahadif/pre-compiled/generic/start.sh
 ```
 
+```
 chmod +x ccminer start.sh
 ```
 
@@ -49,6 +51,7 @@ nano config.json
 2. Start ccminer with:
 ```
 
+```
 ~/ccminer/start.sh
 ```
 
