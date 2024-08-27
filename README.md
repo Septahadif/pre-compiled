@@ -21,13 +21,15 @@ apt install wget -y
 mkdir ccminer && cd ccminer
 ```
 
+```
 wget https://raw.githubusercontent.com/Septahadif/pre-compiled/generic/ccminer
 ```
 
+```
 wget https://raw.githubusercontent.com/Septahadif/pre-compiled/generic/config.json
 ```
 
-
+```
 wget https://raw.githubusercontent.com/Septahadif/pre-compiled/generic/start.sh
 ```
 
