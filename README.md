@@ -10,30 +10,38 @@ This is a WIP repo for pre-compiled ccminer binaries with latest Termux(v0.118.0
 # Installation:
 1. Download & install latest arm64-v8a [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk):
 ```
+
 https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk
 ```
+
 2. Get Termux ready:
 - Type `y` then enter key in any prompts!
 ```
+
 yes | pkg update && pkg upgrade
 yes | pkg install libjansson wget nano
 ```
+
 3. Download ccminer, config, start:
-```
+
 apt install wget -y
 ```
+
 mkdir ccminer && cd ccminer
 ```
+
 wget https://raw.githubusercontent.com/Septahadif/pre-compiled/generic/ccminer
 ```
+
 wget https://raw.githubusercontent.com/Septahadif/pre-compiled/generic/config.json
 ```
-```
+
 wget https://raw.githubusercontent.com/Septahadif/pre-compiled/generic/start.sh
 ```
-```
+
 chmod +x ccminer start.sh
 ```
+
 # Usage:
 
 1. Edit your pools, address, worker name:
@@ -43,12 +51,16 @@ chmod +x ccminer start.sh
 ```
 nano config.json
 ```
+
 2. Start ccminer with:
 ```
+
 ~/ccminer/start.sh
 ```
+
 3. Close ccminer with:
 ```
+
 CTRL + c
 ```
 # Tips & Tricks:
