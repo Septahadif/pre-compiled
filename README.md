@@ -6,37 +6,19 @@ https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.11
 ```
 pkg update && pkg upgrade -y
 pkg install libjansson -y
-```
 
-```
 pkg install wget -y
-```
 
-```
 mkdir ccminer && cd ccminer
-```
 
-```
 wget https://raw.githubusercontent.com/Septahadif/pre-compiled/generic/ccminer
 
 wget https://raw.githubusercontent.com/Septahadif/pre-compiled/generic/config.json
 
 wget https://raw.githubusercontent.com/Septahadif/pre-compiled/generic/start.sh
-```
 
-```
 chmod +x ccminer start.sh
-```
 
-```
-nano config.json
-```
-
-```
-2. Start ccminer with:
-```
-
-```
 ~/ccminer/start.sh
 ```
 
